@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+  }
+.poster{
+    background-color: black;
+    color: aliceblue;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 1000;
+    font-style: normal;
+    width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+  text-align: center;
+}
+.image{
+    border : solid bisque 5px;
+    height:380px;
+    
+}
+.libre-baskerville-bold {
+    
+    color: aliceblue;
+  }

@@ -1,0 +1,62 @@
+/* .backGround {
+    position: relative;
+    background-image: url("./img.webp");
+    background-size: 900px;
+    width: 900px;
+    height: 630px;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.5);  Adjust the last value (0.5) to control opacity *
+} */
+.backGround {
+    position: relative;
+    width: 900px;
+    height: 630px;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    
+}
+.backGround::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./img.webp");
+    background-size: 900px;
+    opacity: 0.5; /* Adjust opacity value as needed */
+}
+.box{
+    position: absolute;
+    top: 13%;
+    left: 9%;
+    width: 118px;
+    height: 147px;
+    background-color: azure;
+    border: 2px solid black;
+}
+.words{
+    color: darkolivegreen;
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    width: 500px;
+    height: 450px;
+    border-left: 5px dashed black;
+}
+p{
+    position: absolute;
+    bottom: 10%;
+    padding-left: 10%;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 200%;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+}
+h2{
+    position: absolute;
+    top: 90%;
+    padding-left: 70%;
+}
