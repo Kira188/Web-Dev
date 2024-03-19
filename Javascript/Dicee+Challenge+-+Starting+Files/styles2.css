@@ -31,7 +31,7 @@ footer{
 img {
     width: 80%;
 }
-@media (width<= 480px){
+@media (width<= 480px) or (height<=480px){
     .container > h1{
         font-size: 4rem;
     }
