@@ -1,0 +1,48 @@
+body{
+     background-color: #011F3F;
+     font-family: 'Press Start 2P', cursive;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: #FEF2BF;
+}
+.butt{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+}
+button{
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+.green{
+    background-color: green;
+    align-self: end; /* Align to the bottom */
+    justify-self: end;
+}
+.red{
+    background-color: red;
+    align-self: end; /* Align to the bottom */
+    justify-self: start;
+}
+.yellow{
+    background-color: yellow;
+    align-self: start; /* Align to the top */
+    justify-self: end;
+}
+.blue{
+    background-color: blue;
+    background-color: blue;
+    align-self: start; /* Align to the top */
+    justify-self: start;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
